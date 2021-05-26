@@ -1,0 +1,50 @@
+mkdir git-majonez
+cd git-majonez/
+git init
+ls -a
+touch main.cpp
+ls
+code main.cpp
+g++ -std=c++17 main.cpp
+./a.out
+git status
+git add main.cpp
+git status
+git commit -m "Initial commit"
+git status
+git add main.cpp
+git commit -m "Farewell changed"
+git remote add origin https://github.com/krzychtof/git-majonez.git
+git push -u origin master
+git status
+git branch cs
+git checkout cs
+git branch
+git log
+git reset --hard HEAD^
+git log
+git status
+g++ -std=c++17 main.cpp
+./a.out
+git status
+git add .
+git status
+git commit -m "Greetings"
+git log
+git push origin cs
+git branch
+git checkout master
+git pull
+git merge origin/cs
+git status
+g++ -std=c++17 main.cpp
+./a.out
+git add main.cpp
+git status
+git commit -m "Merge branch 'cs'"
+git status
+touch history.txt
+git status
+git add history.txt
+git commit -m "History added"
+git status
