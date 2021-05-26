@@ -35,7 +35,7 @@ git push origin cs
 git branch
 git checkout master
 git pull
-git merge origin/cs
+git merge cs
 git status
 g++ -std=c++17 main.cpp
 ./a.out
